@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+}
+
+.row{
+  display: flex;
+  height: 100%;
+}
+
+.col-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  background-color: #eee;
+  padding: 10px 0;
+}
+
+.col-right{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  background-color: #efef;
+  padding: 10px 0;
+}
+
+.container-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container{
+  width: 100%;
+  padding: 5px;
+}
+
+.input-container input{
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.input-container button{
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: rgb(111, 126, 255);
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.input-container button:hover{
+  background-color: rgb(85, 99, 226);
+}
+
+.list{
+  list-style: none;
+  padding: 2px;
+  width: 100%;
+}
+
+.list li{
+  width: 100%;
+  margin: 7px;
+  border-bottom: 1px black;
+}
+
+.list li p{
+  margin: 0;
+}
+
+.list li h3{
+  margin: 0;
+}
+
